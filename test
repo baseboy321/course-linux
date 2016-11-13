@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+
+import colors as c
+import time as t
+
+
+print(c.red + "H") 
+t.sleep(.3) 
+print(c.red + "e")
+t.sleep(.3)
+print(c.red + "l")
+t.sleep(.3)
+print(c.red + "l")
+t.sleep(.3)
+print(c.red + "o")
+t.sleep(.3)
+print(c.red + " ")
+t.sleep(.3)
+print(c.blue + "w")
+t.sleep(.3)
+print(c.blue + "o")
+t.sleep(.3)
+print(c.blue + "r")
+t.sleep(.3)
+print(c.blue + "l")
+t.sleep(.3)
+print(c.blue + "d")
+t.sleep(1)
+print(c.clear)
+#----------------------------#
+#This makes the cube
+print("""
+--
+""")
+t.sleep(.3)
+print(c.clear)
+print("""
+--
+""")
+t.sleep(.3)
+print(c.clear)
+print("""
+---
+""")
+t.sleep(.3)
+print(c.clear)
+print("""
+----
+""")
+t.sleep(.3)
+print(c.clear)
+print("""
+-----
+""")
