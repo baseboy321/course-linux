@@ -1,0 +1,4 @@
+#!/bin/sh
+
+espeak "Hello People"
+./test_fall
